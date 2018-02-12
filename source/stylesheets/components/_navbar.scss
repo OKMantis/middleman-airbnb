@@ -8,6 +8,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
 
 /* Logo */
@@ -17,9 +19,9 @@
 
 /* User Avatar */
 .navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
   border-radius: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 /* Right section */
